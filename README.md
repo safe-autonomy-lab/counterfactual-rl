@@ -12,7 +12,7 @@ GitHub repository: [https://github.com/shuyang-dong/Counterfactual\_Explanation\
 
 ## Overview
 
-This project presents a novel method for generating counterfactual explanations in reinforcement learning with continuous action spaces. It aims to answer: *"What small changes to the agent's actions would have led to a better outcome?"* The method integrates a custom distance metric for action trajectories, a reward shaping mechanism based on potential functions, and an adapted TD3 algorithm for learning optimal counterfactual policies.
+This project presents a novel method for generating counterfactual explanations in reinforcement learning with continuous action spaces. It aims to answer: *"What small changes to the agent's actions would have led to a better outcome?"* The method integrates a custom distance metric for action trajectories, a sparse reward shaping mechanism, and an extended TD3 algorithm for learning optimal counterfactual policies.
 
 The approach is evaluated on two domains:
 
